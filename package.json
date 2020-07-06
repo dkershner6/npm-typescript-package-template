@@ -41,5 +41,8 @@
   },
   "files": [
     "dist/*"
-  ]
+  ],
+  "dependencies": {
+    "eslint-plugin-jest": "^23.18.0"
+  }
 }
