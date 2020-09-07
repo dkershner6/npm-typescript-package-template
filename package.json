@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "A template for easy creation of new NPM packages",
   "main": "dist/index.js",
+  "source": "src/index.ts",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
     "format-check": "prettier --check .",
@@ -34,6 +38,7 @@
     "eslint-plugin-jest": "^23.18.0",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.1.0",
+    "microbundle": "^0.12.3",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.1.1",
