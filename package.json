@@ -4,7 +4,7 @@
   "description": "A template for easy creation of new NPM packages",
   "main": "dist/index.js",
   "source": "src/index.ts",
-  "module": "dist/index.mjs",
+  "module": "dist/index.m.js",
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
